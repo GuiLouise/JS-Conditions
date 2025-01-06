@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(45deg, rgb(255, 0, 191), rgb(255, 160, 176));
+    font-family: arial;
+    text-align: center;
+}
+
+#titulobody{
+    margin: 30px auto;
+}
+
+.template{
+    margin: 50px auto;
+    width: 80%;
+    height: auto;
+    background-color: rgb(179, 206, 255);
+    border-radius: 30px;
+    border: 2px solid blue;
+}
+
+.template h1{
+    color: white;
+    text-shadow: black 1px 1px 10px;
+    margin: 20px auto;
+}
+
+.conteudo p{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin: 25px auto;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.testando{
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 15px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+.testando h2{
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    margin: 15px auto;
+}
+
+.testando input[type = 'number']{
+    background-color: transparent;
+    color: black;
+    padding-left: 10px;
+    outline: none;
+    border: 1px blue solid;
+    border-radius: 30px;
+}
+
+.testando input[type = 'submit']{
+    background-color: rgba(73, 255, 255, 0.76);
+    color: black;
+    padding: 0 5px;
+    outline: none;
+    border: 1px blue solid;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
